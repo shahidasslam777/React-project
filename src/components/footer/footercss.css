@@ -1,0 +1,31 @@
+.footer-panel {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  .text {
+    margin-bottom: 20px;
+  }
+  
+  .fa-icon {
+    margin: 0 10px;
+    color: #d8dadd; /* You can change the color as needed */
+    cursor: pointer;
+  }
+  
+  .fa-icon:hover {
+    color: #dacfcf;
+  }
+  
+  .social-icons {
+    margin-bottom: 20px;
+  }
+  
+  copyright {
+    margin-top: 20px;
+    color: #777;
+    font-size: 14px;
+  }
+  

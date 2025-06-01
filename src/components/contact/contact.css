@@ -1,0 +1,63 @@
+
+body {
+    background-image: url(cctv-12.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding-bottom: 400px;
+    
+}
+h1 {
+    text-align: left;
+    font-size: 60px;
+    color: white;
+}
+.font {
+    color: white;
+    font-size: 30px;
+}
+
+.polo {
+    width: 400px;
+    margin: 0 auto; /* Center the form horizontally */
+    background-color: white; /* Form background color */
+    padding: 20px; /* Add padding to the form */
+    border-radius: 10px; /* Add border radius to the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow to the form */
+}
+
+.polo label {
+    display: block;
+    margin-bottom: 5px; /* Add margin between labels */
+}
+
+.polo input,
+.polo select {
+    width: calc(100% - 12px); /* Adjust input width to fit inside the container */
+    padding: 5px; /* Add padding to inputs and selects */
+    margin-bottom: 10px; /* Add margin between inputs and selects */
+}
+form a {
+    text-decoration: none;
+}
+
+button[type="submit"] {
+    width: 100%; /* Make the button full width */
+    padding: 10px; /* Add padding to the button */
+    background-color: #333; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius to the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Add transition effect for background color */
+}
+
+
+button[type="submit"]:hover {
+    background-color: white; /* Change background color on hover */
+}
+

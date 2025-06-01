@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body {
+    background-color: #b8c0c0;
+}
+.navbar {
+    height: 100px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 80px;
+    width: 100px;
+    margin-right: 100px;
+}
+.logo {
+    background-image: url(pic.jpg);
+    height: 70px;  
+    width: 100px;
+    background-size: cover;
+}
+.add-first{
+    font-size: 1rem;
+    margin-left: 15px;
+}
+button {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+}
